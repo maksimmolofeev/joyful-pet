@@ -14,163 +14,195 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <div>
-                <img src="images/logo.png" alt="Joyful pet">
-                <p>JOYFUL PET</p>
+    <header  class="header">
+        <div class="menu">
+            <div class="menu__logo">
+                <img class="menu__logo__img" src="images/logo.png" alt="Joyful pet">
+                <p class="menu__logo__text">JOYFUL PET</p>
             </div>
     
-            <nav>
-                <a href="">Главная</a>
-                <a href="">Друзья</a>
-                <a href="">О сервисе</a>
-                <a href="">Контакты</a>
+            <nav class="nav">
+                <a class="nav__link" href="">Главная</a>
+                <a class="nav__link" href="">Друзья</a>
+                <a class="nav__link" href="">О сервисе</a>
+                <a class="nav__link" href="">Контакты</a>
             </nav>
     
-            <div>
-                <p>+385 35-23-34-45-99</p>
-                <button>
-                    <p>Заказать звонок</p>
+            <div class="menu__contact">
+                <p class="menu__contact__number">+385 35-23-34-45-99</p>
+                <button class="menu__contact__button">
+                    <p class="menu__contact__button__text">Заказать звонок</p>
                 </button>
             </div>
         </div>
+    </header>
 
-        <div>
-            <h1>Твой новый друг с доставкой на дом</h1>
-            <p>Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов. Действуй!</p>
-            <button>
-                <p>Посмотреть друзей</p>
-            </button>
-            <img src="images/Rectangle 22.jpg" alt="Rectangle 22">
-            <img src="images/Rectangle 23.jpg" alt="Rectangle 23">
+    <main class="main">
+        <div class="main_screen">
+            <img class="main_screen__second_img" src="images/Rectangle 23.jpg" alt="Rectangle 23">
+            <img class="main_screen__basic_img" src="images/Rectangle 22.jpg" alt="Rectangle 22">
             <img 
+                class="main_screen_dog_face"               
                 srcset="images/dog_face.png
                         images/dog_face@2x.png 2x" 
                 src="images/dog_face.png" 
                 alt="dog_face">
+            <h1 class="main_screen__title">Твой новый друг <br> с доставкой на дом</h1>
+            <p class="main_screen__sub_title">Онлайн-магазин домашних <br> 
+                                        животных подарит тебе нового <br>
+                                        друга в несколько кликов. <br>
+                                        Действуй!</p>
+            <button class="main_screen__button">
+                <p class="main_screen__button_text">Посмотреть друзей</p>
+            </button>
         </div>
-    </header>
 
-    <main>
-        <div>
-            <div>
-                <h2>Каталог товаров</h2>
-                <nav>
-                    <a href="#">Все</a>
-                    <a href="#">Игрушки</a>
-                    <a href="#">Ошейники</a>
-                    <a href="#">Корм</a>
+        <div class="catalog">
+            <div class="catalog__menu">
+                <h2 class="catalog__menu__title">Каталог товаров</h2>
+                <nav class="catalog__menu__nav">
+                    <a class="catalog__menu__nav__link" href="#">Все</a>
+                    <a class="catalog__menu__nav__link" href="#">Игрушки</a>
+                    <a class="catalog__menu__nav__link" href="#">Ошейники</a>
+                    <a class="catalog__menu__nav__link" href="#">Корм</a>
                 </nav>
-                <img src="images/Ellipse.png" alt="Ellipse">
-                <img src="images/Ellipse.png" alt="Ellipse">
-                <img src="images/Ellipse.png" alt="Ellipse">
+                <img class="catalog__menu__ellipse" src="images/Ellipse.png" alt="Ellipse">
+                <img class="catalog__menu__ellipse" src="images/Ellipse.png" alt="Ellipse">
+                <img class="catalog__menu__ellipse" src="images/Ellipse.png" alt="Ellipse">
             </div>
 
-            <div>
-                <button>
-                    <img src="images/Vector_left.png" alt="Vector left">
+            <div class="catalog_content">
+                <button class="catalog_content__vector_left">
+                    <img class="catalog_content__button" src="images/Vector_left.png" alt="Vector left">
                 </button>
-                <div>
-                    <img src="images/collar.png" alt="Collar">
-                    <h3>Собачий ошейник</h3>
-                    <p>59 руб.</p>
-                    <s>65 руб.</s>
+
+                <div class="catalog_content__card">
+                    <img class="catalog_content__card__img" src="images/collar.png" alt="Collar">
+                    <h3 class="catalog_content__card__title">Собачий ошейник</h3>
+                    <div class="catalog_content__card__price">
+                        <p class="catalog_content__card__price__new">59 руб.</p>
+                        <s class="catalog_content__card__price__old">65 руб.</s>
+                        <img class="catalog_content__card__price__vector" src="images/Vector.png" alt="Vector">
+                    </div>
                 </div>
 
-                <div>
-                    <img src="images/a_toy.png" alt="A toy">
-                    <h3>Жевательная игрушка</h3>
-                    <p>61 руб.</p>
-                    <s>69 руб.</s>
+                <div class="catalog_content__card">
+                    <img class="catalog_content__card__img" src="images/a_toy.png" alt="A toy">
+                    <h3 class="catalog_content__card__title">Жевательная игрушка</h3>
+                    <div class="catalog_content__card__price">
+                        <p class="catalog_content__card__price__new">61 руб.</p>
+                        <s class="catalog_content__card__price__old">69 руб.</s>
+                        <img class="catalog_content__card__price__vector" src="images/Vector.png" alt="Vector">
+                    </div>
                 </div>
 
-                <div>
-                    <img src="images/carrier.png" alt="Carrier">
-                    <h3>Перевозчик животных</h3>
-                    <p>68 руб.</p>
-                    <s>72 руб.</s>
+                <div class="catalog_content__card">
+                    <img class="catalog_content__card__img" src="images/carrier.png" alt="Carrier">
+                    <h3 class="catalog_content__card__title">Перевозчик животных</h3>
+                    <div class="catalog_content__card__price">
+                        <p class="catalog_content__card__price__new">68 руб.</p>
+                        <s class="catalog_content__card__price__old">72 руб.</s>
+                        <img class="catalog_content__card__price__vector" src="images/Vector.png" alt="Vector">
+                    </div>
                 </div>
 
-                <div>
-                    <img src="images/pedigree.png" alt="Dog food">
-                    <h3>Корм для собаки</h3>
-                    <p>32 руб.</p>
-                    <s>37 руб.</s>
+                <div class="catalog_content__card">
+                    <img class="catalog_content__card__img" src="images/pedigree.png" alt="Dog food">
+                    <h3 class="catalog_content__card__title">Корм для собаки</h3>
+                    <div class="catalog_content__card__price">
+                        <p class="catalog_content__card__price__new">32 руб.</p>
+                        <s class="catalog_content__card__price__old">37 руб.</s>
+                        <img class="catalog_content__card__price__vector" src="images/Vector.png" alt="Vector">
+                    </div>
                 </div>
 
+                <button class="catalog_content__vector_right">
+                    <img class="catalog_content__button" src="images/Vector_right.png" alt="Vector_right">
+                </button>
             </div>
         </div>
 
-        <div>
-            <h3>Наша галерея</h3>
-            <div>
-                <div>
+        <div class="gallery">
+            <h3 class="gallery_title">Наша галерея</h3>
+            <div class="gallery_container">
+                <div class="gallery_container__box">
                     <img 
+                        class="gallery_container__box__top"
                         srcset="images/photo_6
                                 images/photo_6@2x.png 2x" 
                         src="images/photo_6.jpg" 
                         alt="photo_6">
 
-                    <img 
-                        srcset="images/photo_4
-                                images/photo_4@2x.png 2x" 
-                        src="images/photo_4.jpg" 
-                        alt="photo_4">
+                    <div class="gallery_container__box__bottom">
+                        <img 
+                            class="gallery_container__box__bottom_left"
+                            srcset="images/photo_4
+                                    images/photo_4@2x.png 2x" 
+                            src="images/photo_4.jpg" 
+                            alt="photo_4">
 
-                    <img 
-                        srcset="images/photo_1
-                                images/photo_1@2x.png 2x" 
-                        src="images/photo_1.jpg" 
-                        alt="photo_1">
+                        <img 
+                            class="gallery_container__box__bottom_right"
+                            srcset="images/photo_1
+                                    images/photo_1@2x.png 2x" 
+                            src="images/photo_1.jpg" 
+                            alt="photo_1">
+                    </div>
                 </div>
                 
-                <div>
-                    <img 
+                <div class="gallery_container__box">
+                    <img
+                        class="gallery_container__box__top"
                         srcset="images/photo_5
                                 images/photo_5@2x.png 2x" 
                         src="images/photo_5.jpg" 
                         alt="photo_5">
 
-                    <img 
-                        srcset="images/photo_2
-                                images/photo_2@2x.png 2x" 
-                        src="images/photo_2.jpg" 
-                        alt="photo_2">
+                    <div class="gallery_container__box__bottom">
+                        <img
+                            class="gallery_container__box__bottom_left"
+                            srcset="images/photo_2
+                                    images/photo_2@2x.png 2x" 
+                            src="images/photo_2.jpg" 
+                            alt="photo_2">
 
-                    <img 
-                        srcset="images/photo_3
-                                images/photo_3@2x.png 2x" 
-                        src="images/photo_3.jpg" 
-                        alt="photo_3">
+                        <img
+                            class="gallery_container__box__bottom_right"
+                            srcset="images/photo_3
+                                    images/photo_3@2x.png 2x" 
+                            src="images/photo_3.jpg" 
+                            alt="photo_3">
+                    </div>
 
                 </div>
             </div>
         </div>
 
-        <div>
-            <div>
-                <h3>О питомнике Joyful Pet</h3>
-                <p>Нашей главной специализацией является
-                    производство клематисов. В нашей коллекции
-                    имеется более 450 видов сортов и клематиса, но
-                    для коммерческих целей мы производим только
-                    немногим более 280 экземпляров клематиса 
-                    Лономоса-клематисы с большим и маленьким 
-                    цветком, а также стеюещийся формы клематиса
-                    в широком диапозоне.
-                    
-                    У нас также есть дополнительная специальность
-                    выющиеся растения которые могут растить в саду
-                    в польских климатических условиях; мы производим
-                    более сотни видов и сортов таких растений.</p>
-                <button>
-                    <p>Читать дальше ></p>
+        <div class="about">
+            <div class="about__column_left">
+                <h3 class="about__column_left__title">О питомнике Joyful Pet</h3>
+                <div class="about__column_left__discription">
+                    <p>Нашей главной специализацией является
+                        производство клематисов. В нашей коллекции
+                        имеется более 450 видов сортов и клематиса, но
+                        для коммерческих целей мы производим только
+                        немногим более 280 экземпляров клематиса 
+                        Лономоса-клематисы с большим и маленьким 
+                        цветком, а также стеюещийся формы клематиса
+                        в широком диапозоне.
+                        У нас также есть дополнительная специальность
+                        выющиеся растения которые могут растить в саду
+                        в польских климатических условиях; мы производим
+                        более сотни видов и сортов таких растений.</p>
+                </div>
+                <button class="about__column_left__button">
+                    <p class="about__column_left__button__title">Читать дальше ></p>
                 </button>
             </div>
 
-            <div>
+            <div class="about__column_right">
                 <img
+                    class="about__column_right__img"
                     srcset="images/we.jpg
                             images/we@2x.jpg 2x" 
                     src="images/we.jpg" 
@@ -181,33 +213,34 @@
 
     </main>
 
-    <footer>
-        <div>
-            <div>
-                <img src="images/logo.png" alt="Joyful pet">
-                <p>JOYFUL PET</p>
+    <footer class="footer">
+        <div class="menu">
+            <div class="menu__logo menu_logo_bottom" >
+                <img class="menu__logo__img" src="images/logo.png" alt="Joyful pet">
+                <p class="menu__logo__text">JOYFUL PET</p>
             </div>
     
-            <nav>
-                <a href="">Главная</a>
-                <a href="">Друзья</a>
-                <a href="">О сервисе</a>
-                <a href="">Контакты</a>
+            <nav class="nav">
+                <a class="nav__link" href="">Главная</a>
+                <a class="nav__link" href="">Друзья</a>
+                <a class="nav__link" href="">О сервисе</a>
+                <a class="nav__link" href="">Контакты</a>
             </nav>
             
-            <div>
+            <div class="menu__top">
                 <a href="#">
                     <img src="images/top.png" alt="Top">
                 </a>
             </div>
 
-            <div>
-                <p>+385 35-23-34-45-99</p>
-                <button>
-                    <p>Заказать звонок</p>
+            <div class="menu__contact">
+                <p class="menu__contact__number">+385 35-23-34-45-99</p>
+                <button class="menu__contact__button">
+                    <p class="menu__contact__button__text">Заказать звонок</p>
                 </button>
             </div>
         </div>
+
     </footer>
 </body>
 </html>
